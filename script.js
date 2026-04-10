@@ -35,7 +35,7 @@ console.log ("El tipo de dato de apellido es:" , typeof apellido);
 
 // Estructuras de datos: arreglos y objetos
 
-// arreglos 
+// arreglos  []
 
 let zapatos = ["Nike", "Puma", "Adidas", "New Balance", "Vans"];
 
