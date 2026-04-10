@@ -20,6 +20,11 @@ const suma = document.querySelector("#suma");
 
 // listener
 
+const cambiarTema = () => body.classList.toggle("dark-theme");
+
+const body = document.querySelector("body");
+const cambTema = document.querySelector("#cambTema");
+cambTema.addEventListener("click", cambiarTema);
 suma.addEventListener("click", Event => {
 const valorCorrecto = 20;
 const resultadoUsuario = Event.target.value;
